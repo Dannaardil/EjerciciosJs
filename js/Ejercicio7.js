@@ -1,7 +1,7 @@
 import prompt from "prompt-sync"
 let input = prompt();
 
-let contarRango = function(){
+/*
     let numero = input("ingrese el primer numero: ")
     let numero2 = input("ingrese el segundo numero: ")
    for (let i in numero){
@@ -18,4 +18,15 @@ let contarRango = function(){
 }
 
 
-contarRango()
+contarRango()*/
+function contarRango(numInicial, numFinal) {
+    let suma = 0;
+    for (let i = numInicial; i <= numFinal; i++) {
+        suma += 1;
+    }
+    return suma;
+}
+
+console.log(contarRango(1, 9)) // 7
+console.log(contarRango(1332, 8743)) // 7410
+console.log(contarRango(5, 6)) // 0
