@@ -19,6 +19,7 @@ let cal_IMC = function(){
         console.log("Obeso")
 
     };
+
     
 
 
